@@ -113,6 +113,44 @@ nav ul li button a {
   width: 50%;
 }
 
+.home-content h2 {
+  font-size: 44px;
+  font-weight: 600;
+}
+
+.home-content p {
+  font-size: 22px;
+}
+
+.home-content input {
+  width: 50%;
+  height: 30px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  transition: .5s;
+  padding: 0 10px;
+}
+
+.home-content input::placeholder {
+  font-weight: 600;
+  padding: 0 8px;
+}
+
+.home-content button {
+  width: 43%;
+  padding: 5px;
+  border: none;
+  background: #0065ff;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 18px;
+  transition: .5s;
+  outline: none;
+}
+
 .home-image {
   width: 50%;
 }
