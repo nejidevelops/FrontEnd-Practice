@@ -162,3 +162,33 @@ nav ul li button a {
   width: 100%;
   height: 75vh;
 }
+
+@media (max-width: 767px) {
+  .home {
+    height: auto;
+  }
+  .home-section {
+    flex-direction: column;
+    margin: 2rem 1rem;
+  }
+  
+  .home-content, .home-image {
+    width: 100%;
+  }
+
+  .home-image img {
+    height: auto;
+  }
+  
+  .home-content input, .home-content button {
+    width: 100%;
+  }
+
+  .home-content input {
+    margin-bottom: 15px;
+  }
+
+  .home-content button {
+    margin-bottom: 15px;
+  }
+}
