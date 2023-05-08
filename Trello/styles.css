@@ -116,10 +116,13 @@ nav ul li button a {
 .home-content h2 {
   font-size: 44px;
   font-weight: 600;
+  padding-bottom: 15px;
 }
 
 .home-content p {
   font-size: 22px;
+  padding-bottom: 15px;
+
 }
 
 .home-content input {
@@ -157,5 +160,5 @@ nav ul li button a {
 
 .home-image img {
   width: 100%;
-  height: 50%;
+  height: 75vh;
 }
