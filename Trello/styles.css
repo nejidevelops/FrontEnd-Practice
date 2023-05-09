@@ -194,10 +194,10 @@ nav ul li button a {
 }
 
 .trello-dashboard {
-  /* display: flex;
-  flex-direction: column; */
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  height: 100vh;
+  height: auto;
   justify-content: center;
   margin: 100px 0;
 }
@@ -236,5 +236,47 @@ nav ul li button a {
 
 .trello-dashboard img {
   width: 900px;
+  margin-bottom: 15px;
 }
 
+.trello-dashboard .logos {
+  display: flex;
+}
+
+.trello-dashboard .logos img {
+  width: 100px;
+}
+
+@media (max-width: 768px) {
+  .trello-dashboard {
+  margin: 50px 0;
+  }
+  
+  .trello-dashboard h3 {
+  font-size: 24px;
+  padding-bottom: 10px;
+  }
+  
+  .trello-dashboard p {
+  width: 90%;
+  font-size: 18px;
+  padding-bottom: 10px;
+  }
+  
+  .trello-dashboard button {
+  font-size: 14px;
+  padding: 8px 16px;
+  }
+  
+  .trello-dashboard button span {
+  font-size: 24px;
+  }
+  
+  .trello-dashboard img {
+  width: 100%;
+  }
+  
+  .trello-dashboard .logos img {
+  width: 60px;
+  }
+}
