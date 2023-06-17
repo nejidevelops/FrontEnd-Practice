@@ -234,6 +234,12 @@ nav ul li button a {
   font-size: 30px;
 }
 
+.trello-dashboard .dashboard-caption {
+  font-size: 20px;
+  text-align: center;
+  font-weight: normal;
+}
+
 .trello-dashboard img {
   width: 900px;
   margin-bottom: 15px;
@@ -255,6 +261,7 @@ nav ul li button a {
   .trello-dashboard h3 {
   font-size: 24px;
   padding-bottom: 10px;
+  text-align: center;
   }
   
   .trello-dashboard p {
