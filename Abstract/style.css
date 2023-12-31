@@ -10,3 +10,55 @@
   --black: #000000;
   --white: #fff;
 }
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+p {
+  font-size: 16px;
+}
+
+body {
+  position: relative;
+  scroll-behavior: smooth;
+  height: 100vh;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 5rem;
+  background: var(--black);
+}
+
+.nav-options {
+  display: flex;
+  gap: .5rem;
+}
+
+nav button {
+  border: 1px solid var(--white);
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+nav button a {
+  color: var(--white);
+}
+
+nav button:nth-child(even) {
+  background-color: var(--blue);
+  border: none;
+}
