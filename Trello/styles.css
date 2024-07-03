@@ -11,10 +11,11 @@
   height: 100vh;
 }
 
-
-nav ul {
-  float: right;
-  margin-right: 20px;
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-inline: 2rem;
 }
 
 nav ul li{
